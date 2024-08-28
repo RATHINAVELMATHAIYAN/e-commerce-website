@@ -33,15 +33,27 @@
         .contact-details input {
             width: 70%;
             padding: 10px;
-            font-size: 1.2rem;
+            font-size: 1.8rem;
+        }
+        .contact-details textarea{
+            height: 200px;
+            width: 90%;
+
         }
 
         .footer {
             background-color: #10232c;
             color: white;
             padding: 20px;
-            margin-top: 10px;
-            border: 2px solid black;
+            margin-top: 30px;
+            border: 1px solid transparent;
+        }
+        @media screen and (max-width:700px) {
+            .footer {
+                display:none;
+            }
+            
+            
         }
     </style>
 </head>
@@ -54,8 +66,8 @@
             <input type="text" class="search">
             <h2>E-mail</h2>
             <input type="text" class="search">
-            <h2>Search</h2>
-            <textarea cols="70" rows="15"></textarea>
+            <h2>Comments</h2>
+            <textarea></textarea>
 
         </div>
     </div>
